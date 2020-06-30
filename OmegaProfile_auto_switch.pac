@@ -11,12 +11,13 @@ var FindProxyForURL = function(init, profiles) {
 }("+auto switch", {
     "+auto switch": function(url, host, scheme) {
         "use strict";
-        if (/(?:^|\.)n3ro\.net$/.test(host)) return "+proxy";
-        if (/(?:^|\.)github\.com$/.test(host)) return "+proxy";
+        if (/(?:^|\.)donmai\.us$/.test(host)) return "+proxy";
+        if (/(?:^|\.)anime-sharing\.com$/.test(host)) return "+proxy";
+        if (/(?:^|\.)pockies\.github\.io$/.test(host)) return "+proxy";
+        if (/(?:^|\.)userstyles\.org$/.test(host)) return "+proxy";
+        if (/(?:^|\.)twimg\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)pximg\.net$/.test(host)) return "+proxy";
-        if (/(?:^|\.)pixiv\.net$/.test(host)) return "+proxy";
-        if (/^192\.168\.50\./.test(host)) return "DIRECT";
-        if (/(?:^|\.)ouliu\.net$/.test(host)) return "+proxy";
+        if (/(?:^|\.)n3ro\.net$/.test(host)) return "+proxy";
         if (/(?:^|\.)wikimedia\.org$/.test(host)) return "+proxy";
         if (/(?:^|\.)wikibooks\.org$/.test(host)) return "+proxy";
         if (/(?:^|\.)avatars1\.githubusercontent\.com$/.test(host)) return "+proxy";
@@ -24,6 +25,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)avatars3\.githubusercontent\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)avatars2\.githubusercontent\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)wikiquote\.org$/.test(host)) return "+proxy";
+        if (/(?:^|\.)bgm\.tv$/.test(host)) return "+proxy";
         if (/(?:^|\.)loli\.net$/.test(host)) return "+proxy";
         if (/(?:^|\.)wikipedia\.org$/.test(host)) return "+proxy";
         if (/(?:^|\.)gimx\.fr$/.test(host)) return "+proxy";
@@ -33,12 +35,15 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)gitbooks\.io$/.test(host)) return "+proxy";
         if (/(?:^|\.)fonts\.googleapis\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)akamaihd\.net$/.test(host)) return "+proxy";
+        if (/(?:^|\.)dxezhqhj7t42i\.cloudfront\.net$/.test(host)) return "+proxy";
+        if (/(?:^|\.)dcnz2rrcot657\.cloudfront\.net$/.test(host)) return "+proxy";
         if (/(?:^|\.)disquscdn\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)kxcdn\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)infoqstatic\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)tangosource\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)steamstatic\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)lead-ad\.jp$/.test(host)) return "+proxy";
+        if (/(?:^|\.)dwa5x7aod66zk\.cloudfront\.net$/.test(host)) return "+proxy";
         if (/(?:^|\.)8686c\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)doubleclick\.net$/.test(host)) return "+proxy";
         if (/(?:^|\.)googletagmanager\.com$/.test(host)) return "+proxy";
@@ -52,6 +57,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/(?:^|\.)51\.la$/.test(host)) return "+proxy";
         if (/(?:^|\.)shinkaimakoto\.jp$/.test(host)) return "+proxy";
         if (/(?:^|\.)alexa\.com$/.test(host)) return "+proxy";
+        if (/(?:^|\.)sinaimg\.cn$/.test(host)) return "+proxy";
         if (/(?:^|\.)viglink\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)xda-developers\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)xda-cdn\.com$/.test(host)) return "+proxy";
@@ -66,6 +72,7 @@ var FindProxyForURL = function(init, profiles) {
         if (/^internal\.example\.com$/.test(host)) return "DIRECT";
         if (/(?:^|\.)example\.com$/.test(host)) return "+proxy";
         if (/(?:^|\.)githubusercontent\.com$/.test(host)) return "+proxy";
+        if (/(?:^|\.)wolframcdn\.com$/.test(host)) return "+proxy";
         return "+__ruleListOf_auto switch";
     },
     "+__ruleListOf_auto switch": function(url, host, scheme) {
